@@ -1,0 +1,55 @@
+input:focus
+{
+    border: 1px solid rgb(33, 69, 90);
+}
+label{
+    float: left;
+    clear: both;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+   
+}
+input
+{margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+form{
+    display:inline-block;
+    border: 1px solid rgb(29, 75, 136);
+    height: 150px;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rgb(108, 160, 196);
+}
+.knop:hover{
+    background-color:rgb(99, 99, 99) ;
+    cursor: pointer;
+}
+.legend{
+    padding-left: 10px;
+    font-size: 19px;
+}
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+  }
+  a {
+    text-decoration: none;
+    color: rgb(29, 75, 136);
+     /*убираем подчеркивание текста ссылок*/
+  }
+  li {
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+    margin-right:30px; /*Добавляем отступ у пунктов меню*/
+  }
+  .menu{
+      margin-left: 400px;
+  }
+  li>a:hover{
+color: rgb(83, 157, 192);
+  }
